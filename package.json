@@ -1,0 +1,21 @@
+{
+  "type": "module",
+  "name": "@arbendium/json-patch",
+  "version": "1.0.0",
+  "description": "Lean and mean Javascript implementation of the JSON-Patch standard (RFC 6902).",
+  "author": {
+    "name": "Joachim Wester",
+    "email": "joachimwester@me.com",
+    "url": "http://www.starcounter.com/"
+  },
+  "repository": "github:arbendium/json-patch",
+  "license": "MIT",
+  "exports": "./index.js",
+  "scripts": {
+    "lint": "eslint *.js"
+  },
+  "devDependencies": {
+    "@arbendium/eslint-config-base": "^0.2.1",
+    "eslint": "^8.54.0"
+  }
+}
